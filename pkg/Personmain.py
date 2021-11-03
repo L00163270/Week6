@@ -8,7 +8,7 @@
 # Description :
 # --------------------
 
-from Sample1 import Person
+from Sample1 import PERSON
 
 if __name__ == '__main__':
 

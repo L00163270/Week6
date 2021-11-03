@@ -15,17 +15,14 @@ from MODULE import MODULE
 if __name__ == '__main__':
     print('First Step')
     StudName = STUDENT('Sreejith JP', 'L00163270')
-    #StudName.name = 'Sreejith'
-    #StudName.roll = 'L00163270'
-    #StudName.stud_details()
-    print(callable(StudName.display_person_details()))
+    print(StudName.display_person_details())
+    # print('Second')
+    # ModName = MODULE(1, 'Python')
+    # print(ModName.display_mod_details())
+    # print('Third')
+    # RoomDet = ROOM(4209)
+    # print(RoomDet.display_class_details())
+    print( StudName.stud_details )
+    print( StudName.display_person_details )
 
-    print('Second')
-    ModName = MODULE(1, 'Python')
-    print(ModName.display_mod_details())
-
-    print('Third')
-    RoomDet = ROOM(4209)
-    print(RoomDet.display_class_details())
-
-    print("Thank you for using my application"
+    print("Thank you for using my application")
