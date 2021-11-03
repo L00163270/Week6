@@ -15,13 +15,13 @@ from MODULE import MODULE
 if __name__ == '__main__':
     print('First Step')
     StudName = STUDENT('Sreejith JP', 'L00163270')
-    print(StudName.display_person_details())
-    # print('Second')
+    #print(StudName.display_person_details())
+    print('Second')
     # ModName = MODULE(1, 'Python')
-    # print(ModName.display_mod_details())
+    print( modname.display_mod_details())
     # print('Third')
-    # RoomDet = ROOM(4209)
-    # print(RoomDet.display_class_details())
+    #RoomDet = ROOM(4209)
+   # print(RoomDet.display_class_details())
     print( StudName.stud_details )
     print( StudName.display_person_details )
 

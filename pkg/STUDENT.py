@@ -30,5 +30,5 @@ class STUDENT:
 
     @property
     def display_person_details(self):
-        print("Name: ".format(self._name))
-        print("Roll Number: ".format(self._roll))
+        print("Name: {}".format(self._name))
+        print("Roll Number: {}".format(self._roll))

@@ -25,5 +25,5 @@ class MODULE:
 
     @property
     def display_mod_details(self):
-        print("Module name: ".format(self._mod_name))
-        print("Module number: ".format(self._mod_num))
+        print("Module name: {}".format(self._mod_name))
+        print("Module number:{} ".format(self._mod_num))
